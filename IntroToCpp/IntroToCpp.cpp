@@ -180,7 +180,7 @@ int main() // the main method which is run when the program is run
 	ObjectWithoutHeaderStruct objWoStruct; // creates a ObjectWithoutHeaderStruct called objWoStruct
 	std::cout << "Setting int y and z inside objWoStruct to 0..." << std::endl;
 	objWoStruct.y = 0; // sets int y to 0
-	objWoStruct.z = 0; // setse int z to 0
+	objWoStruct.z = 0; // sets int z to 0
 	std::cout << "Running AddToZ, passing in 5" << std::endl;
 	objWoStruct = objWo.AddToZ(objWoStruct, 5); // runs AddToZ inside ObjWo (ObjectWithoutHeader). Passes in the struct we created earlier and a number. Returns a new struct with the modified data.
 	std::cout << "int z inside objWoStruct is now: " << objWoStruct.z << std::endl; // prints int z inside objWoStruct
@@ -207,4 +207,5 @@ int main() // the main method which is run when the program is run
 /*
 	Change log:
 	- v1.0 (01/14/2015): Initial creation.
+	- v1.01 (01/14/2015): Fixed a minor typo.
 */

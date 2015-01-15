@@ -19,6 +19,8 @@ enum ObjectWithoutHeaderEnum
 	OBJECTWITHOUTHEADERENUM_ZERO, // will be 0 automatically
 	OBJECTWITHOUTHEADERENUM_POSONE = 1, // setting it to 1
 	OBJECTWITHOUTHEADERENUM_POSTWO // will be 2 automatically
+
+	// as you can see, these are generally named ENUMNAME_NAME
 };
 
 class ObjectWithoutHeader
