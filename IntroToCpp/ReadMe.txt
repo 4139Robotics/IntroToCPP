@@ -1,40 +1,21 @@
-========================================================================
-    CONSOLE APPLICATION : IntroToCpp Project Overview
-========================================================================
+Author: Elliot Yoon from FRC Team 4139
 
-AppWizard has created this IntroToCpp application for you.
-
-This file contains a summary of what you will find in each of the files that
-make up your IntroToCpp application.
-
-
-IntroToCpp.vcxproj
-    This is the main project file for VC++ projects generated using an Application Wizard.
-    It contains information about the version of Visual C++ that generated the file, and
-    information about the platforms, configurations, and project features selected with the
-    Application Wizard.
-
-IntroToCpp.vcxproj.filters
-    This is the filters file for VC++ projects generated using an Application Wizard. 
-    It contains information about the association between the files in your project 
-    and the filters. This association is used in the IDE to show grouping of files with
-    similar extensions under a specific node (for e.g. ".cpp" files are associated with the
-    "Source Files" filter).
+A project intended to cover all the topics in C++ that is required to program the robot.
+The files you should look at are:
 
 IntroToCpp.cpp
-    This is the main application source file.
+    Main project file.
+
+ObjectWithoutHeader.cpp
+    ObjectWithoutHeader class. Name is self-explanatory; this is for an object that uses just the .cpp file and not the .h file. Also containes a struct and an enum.
+
+ObjectWithHeader.cpp
+    ObjectWithHeader class. Name is self-explanatory. Contains the implementation of the methods.
+
+ObjectWithHeader.h
+    ObjectWithHeader header file. Contains the actual class, declaration of methods, and member variables.
 
 /////////////////////////////////////////////////////////////////////////////
-Other standard files:
 
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named IntroToCpp.pch and a precompiled types file named StdAfx.obj.
-
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
-
-AppWizard uses "TODO:" comments to indicate parts of the source code you
-should add to or customize.
-
-/////////////////////////////////////////////////////////////////////////////
+Change log:
+- v1.0 (01/14/2015): Initial creation.
