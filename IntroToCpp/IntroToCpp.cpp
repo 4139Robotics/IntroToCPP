@@ -206,6 +206,7 @@ int main() // the main method which is run when the program is run
 
 /*
 	Change log:
-	- v1.0 (01/14/2015): Initial creation.
-	- v1.01 (01/14/2015): Fixed a minor typo.
+	- v1.0.0 (01/14/2015): Initial creation.
+	- v1.0.1 (01/14/2015): Fixed a minor typo.
+	- v1.0.2 (01/15/2015): Changed version numbering system.
 */
