@@ -210,3 +210,8 @@ int main() // the main method which is run when the program is run
 	- v1.0.1 (01/14/2015): Fixed a minor typo.
 	- v1.0.2 (01/15/2015): Changed version numbering system.
 */
+/*
+	This is a comment written by Nick
+*/
+	//this is another comment written by Nick
+	//dank memes can melt steel beams
